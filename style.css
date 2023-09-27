@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(233, 233, 233);
+  width: 100%;
+  padding-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.boxes {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.box-inside {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  border: solid 10px;
+}
+
+.red {
+  background-color: red;
+  border-color: rgb(133, 2, 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.yellow {
+  background-color: yellow;
+  border-color: rgb(111, 111, 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.green {
+  background-color: green;
+  border-color: rgb(0, 59, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+section {
+  margin-top: 20px;
+  text-align: left;
+}
+.innerred {
+  width: 100%;
+  height: 50%;
+  background-color: #ffffff6b;
+}
+.inneryellow {
+  width: 50%;
+  height: 50%;
+  background-color: #ffffff6b;
+}
+.innergreen {
+  width: 50%;
+  height: 50%;
+  background-color: #ffffff6b;
+}
